@@ -1,5 +1,5 @@
 {
-  "name": "@foxglove/rosbag2-web",
+  "name": "@lichtblick/rosbag2-web",
   "version": "4.1.1",
   "description": "ROS2 (Robot Operating System) bag reader and writer for the browser",
   "license": "MIT",
@@ -19,13 +19,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/foxglove/rosbag2-web.git"
+    "url": "https://github.com/Lichtblick-Suite/rosbag2-web.git"
   },
   "author": {
-    "name": "Foxglove Technologies Inc",
-    "email": "contact@foxglove.dev"
+    "name": "Lichtblick",
+    "email": "lichtblick@bmwgroup.com"
   },
-  "homepage": "https://github.com/foxglove/rosbag2-web",
+  "homepage": "https://github.com/Lichtblick-Suite/rosbag2-web",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -41,13 +41,13 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@foxglove/eslint-plugin": "0.21.0",
+    "@lichtblick/eslint-plugin": "1.0.1",
     "@types/jest": "^29.4.0",
     "@types/sql.js": "^1.4.4",
     "@types/wicg-entries-api": "^2020.8.0",
     "@types/wicg-file-system-access": "^2020.9.5",
-    "@typescript-eslint/eslint-plugin": "5.54.0",
-    "@typescript-eslint/parser": "5.54.0",
+    "@typescript-eslint/eslint-plugin": "^6",
+    "@typescript-eslint/parser": "^6",
     "eslint": "8.35.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-es": "4.1.0",
@@ -63,6 +63,7 @@
   },
   "dependencies": {
     "@foxglove/rosbag2": "^5.0.1",
-    "@foxglove/sql.js": "^0.0.4"
+    "@foxglove/sql.js": "^0.0.4",
+    "@lichtblick/rostime": "^1.0.0"
   }
 }

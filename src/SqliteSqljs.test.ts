@@ -8,7 +8,7 @@ import {
   QosPolicyLiveliness,
   QosPolicyReliability,
 } from "@foxglove/rosbag2";
-import { Time, add as addTimes, isTimeInRangeInclusive } from "@foxglove/rostime";
+import { Time, add as addTimes, isTimeInRangeInclusive } from "@lichtblick/rostime";
 import { readFile } from "fs/promises";
 import path from "path";
 
