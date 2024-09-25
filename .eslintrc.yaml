@@ -9,11 +9,11 @@ plugins:
   - jest
 
 extends:
-  - plugin:@foxglove/base
+  - plugin:@lichtblick/base
 
 overrides:
   - files: ["*.ts", "*.tsx"]
     extends:
-      - plugin:@foxglove/typescript
+      - plugin:@lichtblick/typescript
     parserOptions:
       project: ./tsconfig.json
