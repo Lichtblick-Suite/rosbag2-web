@@ -1,5 +1,11 @@
 {
-  "testMatch": ["<rootDir>/src/**/*.test.ts"],
+  "preset": "ts-jest",
+  "setupFilesAfterEnv": [
+    "<rootDir>/src/setupTests.ts"
+  ],
+  "testMatch": [
+    "<rootDir>/src/**/*.test.ts"
+  ],
   "transform": {
     "^.+\\.ts$": "ts-jest"
   }
